@@ -1,0 +1,23 @@
+.Carddiv {
+  background-color: white;
+  padding: 1rem;
+}
+.sale {
+  color: #ff6801;
+  font-size: 18px;
+}
+.col1 {
+  /* border: 1px solid #7e7a80; */
+  padding: 9px;
+}
+/* .img1{
+  width: 10rem;
+} */
+.img1 {
+  width: 9rem;
+}
+.col1:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}

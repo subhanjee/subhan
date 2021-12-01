@@ -1,0 +1,58 @@
+.Mainnav{
+  
+    background-color: white;
+    box-shadow: 3px 1.5px rgb(219, 213, 213);
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.search1{
+    border: solid 2px #1b336f;
+        width: 16rem;
+        height: 2.5rem;
+        background-color: white;
+        font-size: 13px;
+        font-family: inherit;
+        color:  #1b336f;
+        border-radius: 28rem;
+        /* display: flex;
+        justify-content: center; */
+        text-align: center;
+} 
+/* @media (max-width: 320px){ 
+    .search1{
+        width: 19rem;
+        height: 2rem;
+        border: solid 2px #1b336f;
+        font-size: 13px;
+        padding: 1%;
+        font-family: inherit;
+        color:  #1b336f;
+       
+    }
+} */
+
+.logo{
+    width: 7rem;
+    /* margin-left: 2rem; */
+   
+    /* height: 6rem; */
+}
+.account{
+    color: #1b336f;
+    font-weight: bold;
+    margin-left: 1rem;
+    font-size: 15px;
+    margin: 0.5rem;
+    
+}
+.account::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px; 
+    background: #1b336f;
+    transition: width 0.3s;
+  }
+  .account:hover::after {
+    width: 100%;
+  }

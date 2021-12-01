@@ -1,0 +1,60 @@
+ .prodiv{
+     background-color: #FFFFFF;
+     display: flex;
+ }
+ .imgstyle{
+    width: 35%; 
+    border-radius: "1rem"; 
+    
+ }
+ .hot{
+     font-size: 19px;
+     font-weight: bold;
+     margin-top: .8rem;
+ }
+ .brand{
+   font-size: 12px;
+ }
+ .iconsection{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .sidediv{
+     background-color: #FAFAFA !important;
+     padding: 1rem;
+      
+      
+    }
+ .del{
+     font-size: 12px;
+     color: grey;
+ }
+ .option{
+     display: flex;
+     justify-content: space-between;
+ }
+ .location{
+     display: flex;
+     justify-content: center;
+ }
+ .loc1{
+     font-size: 13px;
+     margin-left: .4rem;
+ }
+ .days{
+    font-size: 11px;
+    color: grey;
+   
+ }
+ .daysdiv{
+     display: flex;
+     justify-content: space-between;
+     margin-top: -1rem;
+ }
+ .en{
+     background-color:#FFFFFF ;
+ }
+ .box{
+     font-size: 13px;
+      
+ }

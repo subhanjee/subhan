@@ -1,0 +1,48 @@
+.Carddiv1{
+    background-color: white;
+    padding: 1rem;
+  }
+  .Carddiv12{
+    background-color: white;
+    padding: 1rem;
+    margin-top: -2rem;
+  }
+  .sale1{
+    color: #FF6801;
+    font-size: 18px;
+  }
+  .col11{
+    border-right: 1px solid #a3a0a5;
+    border-bottom: 1px solid #7e7a80;
+    padding: 9px;
+    text-align: center;
+  }
+  /* .img1{
+    width: 10rem;
+  } */
+  .img11
+      {
+        width: 3rem;
+       
+      }
+      .img12
+      {
+        width: 4.5rem;
+       
+      }
+      .img13
+      {
+        width: 3.6rem;
+       
+      }
+      .img14
+      {
+        width: 4.5rem;
+       
+      }
+      .col11:hover
+      {
+        -moz-box-shadow: 0 0 10px #ccc;
+        -webkit-box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 10px #ccc;
+      }

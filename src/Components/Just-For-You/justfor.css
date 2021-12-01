@@ -1,0 +1,24 @@
+.Carddiv12 {
+    background-color: white;
+    padding: 1rem;
+  }
+  .col12{
+    /* border: 1px solid #7e7a80; */
+    padding: 9px;
+    background-color: white;
+    margin: .2rem;
+    line-height: 16px;
+   
+  }
+  /* .img1{
+    width: 10rem;
+  } */
+  .img112 {
+    width: 10rem;
+  }
+  .col12:hover { 
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px rgb(124, 122, 122);
+  }
+  

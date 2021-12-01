@@ -1,0 +1,123 @@
+.Search {
+  width: 25rem;
+  height: 5rem;
+  box-shadow: -1px 1px 5px 2px rgb(175, 167, 167);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+@media (max-width: 425px) {
+  .Search {
+    width: 19.5rem;
+    height: 5rem;
+    box-shadow: -1px 1px 5px 2px rgb(175, 167, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    margin-left: -2rem;
+    background-color: white;
+  }
+}
+/* .Searchbar{
+    width: 20rem;
+    height: 2.5rem; 
+    padding: 1rem;
+    border: solid 1px  ;
+
+}
+@media (max-width: 320px){
+    .Searchbar{
+        width: 10rem;
+        height: 2.5rem; 
+        padding: 1rem;
+        border: solid 1px  ;
+    
+    }
+} */
+.recentdiv {
+  width: 25rem;
+  height: 24rem;
+  box-shadow: -1px 1px 5px 2px rgb(175, 167, 167);
+  margin-top: 2rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: white;
+}
+@media (max-width: 425px) {
+  .recentdiv {
+    width: 18rem;
+    height: 24rem;
+    box-shadow: -1px 1px 5px 2px rgb(175, 167, 167);
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-left: -1.5rem;
+    background-color: white;
+  }
+}
+.font {
+  font-size: 17px;
+  color: #1b336f;
+}
+@media (max-width: 425px) {
+  .font {
+    font-size: 14px;
+    color: #1b336f;
+  }
+}
+.font::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #1b336f;
+  transition: width 0.3s;
+}
+.font:hover::after {
+  width: 100%;
+}
+.list {
+  color: #1b336f;
+}
+.font1 {
+  color: #1b336f;
+}
+.hover:hover {
+  text-decoration: underline;
+  color: #1b336f;
+}
+.pre{
+    font-weight: bold;
+    color: #1b336f;
+}
+.how{
+    color: #1b336f;
+}
+.One-Comment{
+    margin-top: 2rem;
+    color: #1b336f;
+    font-size: 22px;
+}
+ .avatar{
+     display: flex;
+     color: #1b336f;
+     margin-top: 2rem;
+     
+ }
+ .Colum{
+     flex-direction: column;
+     padding: 1rem;
+ }
+ .reply{
+     display:flex;
+     justify-content: space-between;
+ }
+ .leave{
+     margin-top: 2rem;
+     color: #1b336f;
+ }

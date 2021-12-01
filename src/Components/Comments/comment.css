@@ -1,0 +1,31 @@
+ 
+  .btn-primary {
+    background-color: #1b336f !important;
+    border-radius: 42px !important;
+    border-color: #1b336f !important;
+   
+  }
+   
+  .input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #294e9d;
+    font-style: italic;
+    color: #294e9d;
+    margin-top: 20px;
+    background-color: #F9F9F9;
+    /* opacity: 0.5; */
+  }
+  .input::placeholder {
+    color: #294e9d;
+    /* opacity: 0.5; */
+  }
+  .send-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+   
+   
+   
+  
