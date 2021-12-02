@@ -1,13 +1,14 @@
 .Carddiv {
   background-color: white;
   padding: 1rem;
+  
 }
 .sale {
   color: #ff6801;
   font-size: 18px;
 }
 .col1 {
-  /* border: 1px solid #7e7a80; */
+  /* border: 1px solid #7e7a80; */ 
   padding: 9px;
 }
 /* .img1{
@@ -18,6 +19,21 @@
 }
 .col1:hover {
   -moz-box-shadow: 0 0 10px #ccc;
-  -webkit-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc; 
   box-shadow: 0 0 10px #ccc;
+}
+@media(max-width: 1024px){
+  .img1 {
+    width: 8rem;
+  }
+}
+.img2{
+  width: 10rem;
+  height: 9rem
+}
+@media(max-width: 1024px){
+  .img2 {
+    width: 8rem;
+  height: 8rem
+  }
 }

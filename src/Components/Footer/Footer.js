@@ -29,8 +29,8 @@ function Footer() {
                 >
                   Customer Care
                   <br></br>
-                  <a className="hover1">How to Buy</a> <br></br>
-                  <a className="hover1">Corporate & Bulk Purchasing</a>
+                  <p className="hover1">How to Buy</p> <br></br>
+                  <p className="hover1">Corporate & Bulk Purchasing</p>
                   <br></br>
                   <a className="hover1"> Returns & Refunds</a>
                   <br></br>
