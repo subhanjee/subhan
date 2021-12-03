@@ -1,6 +1,6 @@
 import React from "react";
 import "./card.css";
-import { Row, Col, Divider } from "antd";
+import { Row, Col,} from "antd";
 import { Container } from "react-bootstrap";
 
 function Flash() {

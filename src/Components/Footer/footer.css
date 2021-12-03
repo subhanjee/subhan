@@ -110,7 +110,7 @@
   color: white;
   font-size: 14px;
   margin-top: -0.2rem;
-  /* margin-left: .5rem; */
+   
 }
 @media (max-width: 320px) {
   .googlebtn {
@@ -138,6 +138,6 @@
     color: white;
     font-size: 12px;
     margin-top: -0.2rem;
-    /* margin-left: .5rem; */
+  
   }
 }
