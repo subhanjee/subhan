@@ -1,60 +1,152 @@
- .prodiv{
-     background-color: #FFFFFF;
-     display: flex;
- }
- .imgstyle{
-    width: 35%; 
-    border-radius: "1rem"; 
-    
- }
- .hot{
-     font-size: 19px;
-     font-weight: bold;
-     margin-top: .8rem;
- }
- .brand{
-   font-size: 12px;
- }
- .iconsection{
-     display: flex;
-     justify-content: space-evenly;
- }
- .sidediv{
-     background-color: #FAFAFA !important;
-     padding: 1rem;
-      
-      
-    }
- .del{
-     font-size: 12px;
-     color: grey;
- }
- .option{
-     display: flex;
-     justify-content: space-between;
- }
- .location{
-     display: flex;
-     justify-content: center;
- }
- .loc1{
-     font-size: 13px;
-     margin-left: .4rem;
- }
- .days{
-    font-size: 11px;
-    color: grey;
+body {
+  background-color: #eff0f5 !important;
+}
+.prodiv {
+  background-color: #ffffff;
+  display: flex;
+}
+.boxx1{
+    background-color: #ffffff;
+    padding: 1rem; 
+}
+.imgstyle {
+  width: 17rem;
+  height: 20rem;
+  border-radius: "1rem";
+}
+.super{
+    margin-top: .6rem;
+}
+.brand {
+  font-size: 12px;
+  color: grey;
+}
+.no-brand{
+    font-size: 12px;
+    color: #1AB7DC;
+}
+.no-brand:hover {
+    text-decoration: underline;
+    color: #1AB7DC;
+  }
+  .prize{
+      color: #F77224;
+  }
+  .less{
+      color: grey;
+  }
+.iconsection {
+  display: flex;
+  justify-content: space-evenly;
+}
+.sidediv {
+  background-color: #fafafa !important;
+  padding: .5rem;
+}
+.del {
+  font-size: 12px;
+  color: grey;
+}
+.option {
+  display: flex;
+  justify-content: space-between;
+}
+.location {
+  display: flex;
+  justify-content: center;
+}
+.loc1 {
+  font-size: 13px;
+  margin-left: 0.4rem;
+}
+.days {
+  font-size: 11px;
+  color: grey;
+}
+.daysdiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1rem;
+}
+.en {
+  background-color: #ffffff;
+}
+.box {
+  font-size: 13px;
+}
+.mind {
+  font-size: 10px;
+  color: grey;
+  line-height: .5;
+}
+.rating{
+    margin-top: -.3rem;
+    margin-left: .5rem;
+}
+.buybtn{
+width: 10rem;
+height: 2rem;
+background-color: #2ABBE8;
+border: solid 1px #2ABBE8;
+color: white;
+}
+.addbtn{
+    width: 10rem;
+    height: 2rem;
+    background-color: #EE6F23;
+    border: solid 1px #EE6F23;
+    color: white;
+}
+.sidediv1{
+    background-color: #fafafa !important;
+    padding: .5rem;
+    margin-top: .5rem;
+  }
+  .option1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .secondpart{
+      background-color: #FAFAFA;
+      padding: .5rem;
+      margin-top: .5rem;
+  }
+  .secondpart1{
+    background-color: #FFFFFF;
+    padding: .4rem;
+}
+.device{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: .4rem;
+}
+.spec{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: .4rem;
+}
+.list{
+    font-size: 15px;
+}
+.thirdpart{
+    background-color: #FAFAFA;
+    padding: .5rem;
+    margin-top: .5rem;
+}
+.thirdpart1{
+  background-color: #FFFFFF;
+  padding: .8rem;
+}
+.device1{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: .4rem;
+}
+.rate{
+    font-size: 3rem;
    
- }
- .daysdiv{
-     display: flex;
-     justify-content: space-between;
-     margin-top: -1rem;
- }
- .en{
-     background-color:#FFFFFF ;
- }
- .box{
-     font-size: 13px;
-      
- }
+}
+.staricon{
+display: flex;
+margin-top: -.5rem;
+}

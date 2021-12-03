@@ -8,5 +8,5 @@ function MainProduct() {
         <Product1/>
         </div>
     )
-}
+} 
 export default MainProduct;
