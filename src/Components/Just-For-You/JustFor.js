@@ -3,6 +3,7 @@ import "./justfor.css";
 import { Row, Col } from "antd";
 import { Container } from "react-bootstrap";
 import { StarFilled } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
 function JustFor() {
   return (
@@ -12,6 +13,7 @@ function JustFor() {
         <div className=" ">
           <Row justify="center">
             <Col xs={20} sm={10} md={6} lg={4}>
+            <Link style={{color: "black"}} to="/product1">
               <div className="col12">
                 <img
                   className="img112"
@@ -32,6 +34,7 @@ function JustFor() {
                   </p>
                 </div>
               </div>
+              </Link>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
               <div className="col12">
@@ -492,6 +495,7 @@ function JustFor() {
               </div>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
+           
               <div className="col12">
                 <img
                   className="img112"

@@ -10,8 +10,8 @@ body {
     padding: 1rem; 
 }
 .imgstyle {
-  width: 17rem;
-  height: 20rem;
+  width: 15rem;
+  height: 18rem;
   border-radius: "1rem";
 }
 .super{
@@ -80,22 +80,23 @@ body {
   line-height: .5;
 }
 .rating{
-    margin-top: -.3rem;
+    /* margin-top: -.3rem; */
     margin-left: .5rem;
 }
 .buybtn{
-width: 10rem;
-height: 2rem;
+width: 12rem;
+height: 2.5rem;
 background-color: #2ABBE8;
 border: solid 1px #2ABBE8;
 color: white;
 }
 .addbtn{
-    width: 10rem;
-    height: 2rem;
+    width: 12rem;
+    height: 2.5rem;
     background-color: #EE6F23;
     border: solid 1px #EE6F23;
     color: white;
+    margin-left: .5rem;
 }
 .sidediv1{
     background-color: #fafafa !important;

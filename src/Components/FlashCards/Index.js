@@ -1,7 +1,8 @@
 import React from "react";
 import "./card.css";
-import { Row, Col,} from "antd";
+import { Row, Col } from "antd";
 import { Container } from "react-bootstrap";
+import {  Link } from "react-router-dom";
 
 function Flash() {
   return (
@@ -13,7 +14,9 @@ function Flash() {
           <hr />
           <Row justify="center">
             <Col xs={20} sm={10} md={6} lg={4}>
-              <div className="col1">
+            <Link style={{color: "black"}} to="/product1">
+              <div className="col1" >
+             
                 <img
                   className="img1"
                   src="https://static-01.daraz.pk/p/526b30f117ff7dc663498ec90679e8eb.jpg"
@@ -22,13 +25,14 @@ function Flash() {
                 <p>HOT SHAPERS Hot Belt for Women </p>
                 <p> Rs.299 </p>
                 <p> Rs. 1,050-72% </p>
+              
               </div>
+              </Link>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
               <div className="col1">
                 <img
-                className="img2"
-                 
+                  className="img2"
                   src="https://static-01.daraz.pk/p/cff44875e81c1e9169fc7ff331b53d21.jpg"
                   alt=""
                 />

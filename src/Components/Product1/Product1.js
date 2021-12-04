@@ -1,7 +1,6 @@
 import React from "react";
-import { Row, Col } from "antd";
+import { Row, Col,Rate } from "antd";
 import {
-  StarFilled,
   HeartOutlined,
   ShareAltOutlined,
   ExclamationCircleOutlined,
@@ -21,7 +20,7 @@ function Product1() {
             xs={20}
             sm={20}
             md={24}
-            lg={8}
+            lg={6}
             className="container d-flex    justify-content-center  "
           >
             <div className="prodiv">
@@ -36,18 +35,14 @@ function Product1() {
             xs={20}
             sm={20}
             md={24}
-            lg={8}
+            lg={12}
             className="container d-flex flex-column justify-content-center h-100"
           >
             <h3 className="super">
               Super Bass Earphones - 3.5mm Jack - Supported with all devices
             </h3>
             <div style={{ display: "flex", marginTop: ".5rem" }}>
-              <StarFilled style={{ color: "#FFD401" }} />
-              <StarFilled style={{ color: "#FFD401" }} />
-              <StarFilled style={{ color: "#FFD401" }} />
-              <StarFilled style={{ color: "#FFD401" }} />
-              <StarFilled style={{ color: "#FFD401" }} />
+            <Rate style={{fontSize: ".8rem"}} />
               <p className="rating">23 Ratings</p>
               <ShareAltOutlined style={{ fontSize: "1.2rem" }} />
               <HeartOutlined style={{ fontSize: "1.2rem" }} />
@@ -71,7 +66,7 @@ function Product1() {
             xs={20}
             sm={20}
             md={24}
-            lg={8}
+            lg={6}
             className="container d-flex flex-column justify-content-center h-100"
           >
             <div className="sidediv">
@@ -189,109 +184,25 @@ function Product1() {
                 <div>
                   <p className="rate"> 5.0/5 </p>
                   <div style={{marginTop: "-1.5rem" }}>
-                  <StarFilled
-                    style={{ color: "#FACA51", fontSize: "1.6rem" }}
-                  />
-                  <StarFilled
-                    style={{ color: "#FACA51", fontSize: "1.6rem" }}
-                  />
-                  <StarFilled
-                    style={{ color: "#FACA51", fontSize: "1.6rem" }}
-                  />
-                  <StarFilled
-                    style={{ color: "#FACA51", fontSize: "1.6rem" }}
-                  />
-                  <StarFilled
-                    style={{ color: "#FACA51", fontSize: "1.6rem" }}
-                  />
+                  <Rate />
                   </div>
                   <p style={{ color: "grey" }}> 23 Rating</p>
                 </div>
                 <div style={{flexDirection: "column", marginTop: ".8rem",marginLeft: "1rem"}}>
                 <div className="fill1">
-                <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
+                <Rate style={{fontSize: "1rem"}} />
                 </div>
                 <div className="fill2">
-                <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#EFF0F5", fontSize: ".9rem" }}
-              />
+                <Rate style={{fontSize: "1rem"}}  />
                 </div>
                 <div className="fill3">
-                <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{color: "#EFF0F5",  fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#EFF0F5", fontSize: ".9rem" }}
-              />
+                <Rate style={{fontSize: "1rem"}}  />
                 </div>
                 <div className="fill4">
-                <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#FACA51", fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{color: "#EFF0F5",   fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{color: "#EFF0F5",  fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#EFF0F5",  fontSize: ".9rem" }}
-              />
+                <Rate style={{fontSize: "1rem"}}  />
                 </div>
                 <div className="fill4">
-                <StarFilled
-                style={{ color: "#EFF0F5",  fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#EFF0F5",  fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{color: "#EFF0F5",   fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#EFF0F5",  fontSize: ".9rem" }}
-              />
-              <StarFilled
-                style={{ color: "#EFF0F5", fontSize: ".9rem" }}
-              />
+                <Rate style={{fontSize: "1rem"}}  />
               </div>
               </div>
               </div>
