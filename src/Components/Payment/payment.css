@@ -1,0 +1,12 @@
+.paymentdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.cardpayment{
+    margin-top: .5rem;
+}
+.imgcard{
+    width: 4.5rem;
+}
