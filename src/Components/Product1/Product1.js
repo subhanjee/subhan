@@ -55,9 +55,9 @@ function Product1() {
             <hr style={{ marginTop: "-.5rem" }} />
             <h3 className="prize">Rs. 215</h3>
             <p className="less"> Rs. 3,300-93%</p>
-            <hr style={{ marginTop: "-.2rem" }} />
-            <p className="less"> Color Family</p>
-            <p className="less"> Quantity</p>
+            <hr style={{ marginTop: "-.2rem" }} /> 
+            <p className="Less1"> Color Family</p>
+            <p className="Less1"> Quantity</p>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <button className="buybtn">Buy now</button>
    <Link to="/checkout"><button  className="addbtn">Add to Cart</button> </Link>

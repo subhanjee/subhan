@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col } from "antd";
+import {DeleteOutlined } from "@ant-design/icons"
 import "./table.css";
 
 function Table1com() {
@@ -32,8 +33,9 @@ function Table1com() {
             </div>
             <div>
               <p style={{ color: "#F57224", fontSize: "15px" }}>Rs.374</p>
-              <p style={{ color: "#757575", fontSize: "13px" }}>Rs.4,333</p>
+              <p style={{ color: "#757575", fontSize: "13px",textDecoration: "line-through"  }}>Rs.4,333</p>
               <p style={{ fontSize: "12px", fontWeight: "bold" }}>-91%</p>
+              <DeleteOutlined  style={{fontSize: "1rem", color: "#757575"}}/>
             </div>
           </div>
         </Col>
@@ -63,8 +65,9 @@ function Table1com() {
             </div>
             <div>
               <p style={{ color: "#F57224", fontSize: "15px" }}>Rs.374</p>
-              <p style={{ color: "#757575", fontSize: "13px" }}>Rs.4,333</p>
+              <p style={{ color: "#757575", fontSize: "13px",textDecoration: "line-through"  }}>Rs.4,333</p>
               <p style={{ fontSize: "12px", fontWeight: "bold" }}>-91%</p>
+              <DeleteOutlined  style={{fontSize: "1rem", color: "#757575"}}/>
             </div>
           </div>
         </Col>
@@ -96,8 +99,9 @@ function Table1com() {
             </div>
             <div>
               <p style={{ color: "#F57224", fontSize: "15px" }}>Rs.374</p>
-              <p style={{ color: "#757575", fontSize: "13px" }}>Rs.4,333</p>
+              <p style={{ color: "#757575", fontSize: "13px", textDecoration: "line-through" }}>Rs.4,333</p>
               <p style={{ fontSize: "12px", fontWeight: "bold" }}>-91%</p>
+              <DeleteOutlined  style={{fontSize: "1rem", color: "#757575"}}/>
             </div>
           </div>
         </Col>

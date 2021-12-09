@@ -34,6 +34,10 @@ body {
   }
   .less{
       color: grey;
+      text-Decoration: line-through
+  }
+  .Less1{
+    color: grey;
   }
 .iconsection {
   display: flex;
@@ -81,7 +85,7 @@ body {
 }
 .rating{
     /* margin-top: -.3rem; */
-    margin-left: .5rem;
+    margin-left: .5rem; 
 }
 .buybtn{
 width: 12rem;
