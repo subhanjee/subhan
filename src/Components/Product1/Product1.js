@@ -10,6 +10,7 @@ import {
 import Footer from "../Footer/Footer";
 import "./product1.css";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Product1() {
   return (
@@ -59,7 +60,7 @@ function Product1() {
             <p className="less"> Quantity</p>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <button className="buybtn">Buy now</button>
-              <button className="addbtn">Add to Cart</button>
+   <Link to="/checkout"><button  className="addbtn">Add to Cart</button> </Link>
             </div>
           </Col>
           <Col
