@@ -59,7 +59,7 @@ function Product1() {
             <p className="Less1"> Color Family</p>
             <p className="Less1"> Quantity</p>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
-              <button className="buybtn">Buy now</button>
+      <Link to="/signup">       <button className="buybtn">Buy now</button></Link> 
    <Link to="/checkout"><button  className="addbtn">Add to Cart</button> </Link>
             </div>
           </Col>

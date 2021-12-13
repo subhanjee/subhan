@@ -1,0 +1,99 @@
+body {
+  background-color: #eff0f5;
+}
+
+.totalwidth {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 22px;
+  color: #914242;
+}
+
+.heading2 {
+  font-size: 12px;
+  color: #1890FF;
+}
+
+.subdivofform {
+  width: 60%;
+}
+
+.titletop {
+  flex-direction: column;
+  margin-top: .8rem;
+}
+
+.txtclr {
+  font-size: 12px;
+  color: #607279;
+}
+
+.rowofform {
+  background-color: white !important;
+  width: 100% !important;
+  justify-content: space-between;
+}
+
+.div2 {
+  margin-top: .8rem;
+}
+
+.columnofform {
+  padding: 2rem;
+}
+
+.input11 {
+  width: 135%;
+  border-color: #eff0f5;
+  font-size: 12px;
+  padding: .4rem;
+  border: solid 1px grey;
+}
+
+.button11 {
+  width: 100%;
+  background-color: #f57224;
+  color: white;
+  border: solid #f57224 1px;
+  padding: .5rem;
+}
+
+.button22 {
+  width: 100%;
+  background-color: #3b5998;
+  color: white;
+  border: solid #3b5998 1px;
+  padding: .5rem;
+}
+
+.button33 {
+  width: 100%;
+  background-color: #d34836;
+  color: white;
+  border: solid #d34836 1px;
+  padding: .5rem;
+}
+
+.frgt11 {
+  padding-top: .8rem;
+  font-size: 12px;
+  color: grey;
+}
+
+.div33 {
+  padding-top: 1rem;
+
+}
+
+.div44 {
+  padding-top: 2rem;
+}
+
+.lgntxt {
+  font-size: 10px;
+  color: grey;
+}
