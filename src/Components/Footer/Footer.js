@@ -22,19 +22,18 @@ function Footer() {
                   style={{
                     color: " white",
                     fontSize: "16px",
-                    
                   }}
                 >
                   Customer Care
-                  </p>
-                  <p className="hover1">How to Buy</p> 
-                  <p className="hover1">Corporate & Bulk Purchasing</p>
-                  <p className="hover1"> Returns & Refunds</p>
-                  <p className="hover1">Trisage Shop</p>
-                  <p className="hover1">Contact Us</p>
-                  <p className="hover1">Purchase Protection</p>
-                  <p className="hover1">Fulfilled by Trisage (FBT)</p>
-                  <br></br>
+                </p>
+                <p className="hover1">How to Buy</p>
+                <p className="hover1">Corporate & Bulk Purchasing</p>
+                <p className="hover1"> Returns & Refunds</p>
+                <p className="hover1">Trisage Shop</p>
+                <p className="hover1">Contact Us</p>
+                <p className="hover1">Purchase Protection</p>
+                <p className="hover1">Fulfilled by Trisage (FBT)</p>
+                <br></br>
                 <p
                   style={{
                     // marginLeft: "3%",
@@ -42,9 +41,10 @@ function Footer() {
                     fontSize: "16px",
                   }}
                 >
-                Make Money With Us</p>
-                  <p className="hover1">Trisage University</p>  
-                  <p className="hover1">Sell on Trisage</p>
+                  Make Money With Us
+                </p>
+                <p className="hover1">Trisage University</p>
+                <p className="hover1">Sell on Trisage</p>
               </Col>
               <Col
                 xs={20}
@@ -60,21 +60,23 @@ function Footer() {
                     fontSize: "16px",
                   }}
                 >
-                  Trisage </p>
-                  <p className="hover12">About Us</p>  
-                  <p className="hover12">Digital Payments</p>
-                  <p className="hover12">Trisage Cares</p>
-                  <p className="hover12">Trisage Blog</p>
-                  <p className="hover12">Terms & Conditions</p>
-                  <p className="hover12">Privacy Policy</p>
-                  <p className="hover12">Online Shopping App</p>
-                  <p className="hover12">Online Grocery Shopping</p>
-                  <p className="hover12">Trisage Exclusive</p>
-                  <p className="hover12">How to shop on Trisage</p>
-               <p className="contact">Contact: +92 309 4321 500<br></br>
+                  Trisage{" "}
+                </p>
+                <p className="hover12">About Us</p>
+                <p className="hover12">Digital Payments</p>
+                <p className="hover12">Trisage Cares</p>
+                <p className="hover12">Trisage Blog</p>
+                <p className="hover12">Terms & Conditions</p>
+                <p className="hover12">Privacy Policy</p>
+                <p className="hover12">Online Shopping App</p>
+                <p className="hover12">Online Grocery Shopping</p>
+                <p className="hover12">Trisage Exclusive</p>
+                <p className="hover12">How to shop on Trisage</p>
+                <p className="contact">
                   Contact: +92 309 4321 500<br></br>
-                  Mail: Info@trisagesolutions.com</p>
-               
+                  Contact: +92 309 4321 500<br></br>
+                  Mail: Info@trisagesolutions.com
+                </p>
               </Col>
               <Col
                 xs={24}
@@ -91,7 +93,7 @@ function Footer() {
                         style={{
                           color: "white",
                           fontSize: "1.8rem",
-                          marginTop: ".1rem", 
+                          marginTop: ".1rem",
                         }}
                       />
                       <div>
@@ -144,6 +146,6 @@ function Footer() {
         </div>
       </footer>
     </div>
-  ); 
+  );
 }
 export default Footer;

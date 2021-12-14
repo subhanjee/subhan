@@ -1,6 +1,7 @@
 body {
   background-color: #f0f2f5 !important;
 }
+
 .checkdiv {
   display: flex;
   justify-content: center;
@@ -8,16 +9,18 @@ body {
   /* width: 140vw; */
   /* height: 100vh  */
 }
+
 .stepdiv {
   width: 76.5rem;
-  height: 40rem;
+  height: 41rem;
   background-color: #ffffff;
   text-align: center;
 }
+
 @media (max-width: 768px) {
   .stepdiv {
     width: 80rem;
-    height: 55rem;
+    height: 55.5rem;
     background-color: #ffffff;
     text-align: center;
   }
