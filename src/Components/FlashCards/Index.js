@@ -2,7 +2,7 @@ import React from "react";
 import "./card.css";
 import { Row, Col } from "antd";
 import { Container } from "react-bootstrap";
-import {  Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Flash() {
   return (
@@ -14,19 +14,21 @@ function Flash() {
           <hr />
           <Row justify="center">
             <Col xs={20} sm={10} md={6} lg={4}>
-            <Link style={{color: "black"}} to="/product1">
-              <div className="col1" >
-             
-                <img
-                  className="img1"
-                  src="https://static-01.daraz.pk/p/526b30f117ff7dc663498ec90679e8eb.jpg"
-                  alt=""
-                />
-                <p>HOT SHAPERS Hot Belt for Women </p>
-                <p> Rs.299 </p>
-                <p> Rs. 1,050-72% </p>
-              
-              </div>
+              <Link style={{ color: "black" }} to="/product1">
+                <div className="col1">
+                  <img
+                    className="img1"
+                    src="https://static-01.daraz.pk/p/526b30f117ff7dc663498ec90679e8eb.jpg"
+                    alt=""
+                  />
+                  <p>HOT SHAPERS Hot Belt for Women </p>
+                  <p> Rs.299 </p>
+                  <p style={{ textDecoration: "line-through", color: "grey" }}>
+                    {" "}
+                    Rs. 1,050
+                  </p>
+                  -72%
+                </div>
               </Link>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
@@ -38,7 +40,10 @@ function Flash() {
                 />
                 <p>Brown leather Luxury Watch For Unisex</p>
                 <p>Rs.277 </p>
-                <p>Rs. 999-72%</p>
+                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                  Rs. 999
+                </p>
+                -72%
               </div>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
@@ -50,7 +55,10 @@ function Flash() {
                 />
                 <p>Spice, Herb,Tea and Seasoning Filter Ball </p>
                 <p>Rs. 132</p>
-                <p>Rs. 700-81%</p>
+                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                  Rs. 700
+                </p>
+                -81%
               </div>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
@@ -62,7 +70,10 @@ function Flash() {
                 />
                 <p>Electronic Stove Lighter / Spark Lighter </p>
                 <p>Rs. 502</p>
-                <p>Rs. 700-28%</p>
+                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                  Rs. 700
+                </p>
+                -28%
               </div>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
@@ -74,7 +85,10 @@ function Flash() {
                 />
                 <p>Magic Slinky RAINBOW Springs Bounce </p>
                 <p>Rs. 56</p>
-                <p>Rs. 99-43%</p>
+                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                  Rs. 99
+                </p>
+                -43%
               </div>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
@@ -86,7 +100,10 @@ function Flash() {
                 />
                 <p>Tile Stickers Pack of 6/12/24 Pcs.12x12cm </p>
                 <p>Rs. 240</p>
-                <p>Rs. 500-52%</p>
+                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                  Rs. 500
+                </p>
+                -52%
               </div>
             </Col>
           </Row>

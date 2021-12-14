@@ -1,0 +1,70 @@
+
+.addsectionbg111{
+    width: 98%;
+    height: 5.2rem;
+    background-color: rgb(226,226,226);
+    display: flex;
+    justify-content: center;
+}
+.imageclass1{
+    width: 5.5rem;
+    height: 5.2rem;
+    background-color: white;
+}
+.addSection111{
+    width: 65.2rem;
+    height: 5.2rem;
+    background-color: rgb(255,255,255);
+    display: flex;
+}
+.txtimgdiv{
+    display: flex;
+    width: 100%;
+}
+.btn111{
+    width:8rem;
+    height:3rem;
+    border-radius:28rem;
+    margin-top:.8rem;
+    margin-right:.5rem;
+    background-color: rgb(255,103,2);
+    border: solid 1px rgb(255,103,2);
+    color: white;
+}
+.txtapp{
+    margin-top:.6rem;
+    line-height : .5;
+    font-size: 1.2rem;
+}
+.txtapp1{
+    line-height : .5;
+}
+.txtapp2{
+    line-height : .7;
+}
+@media (max-width: 512px){
+    .txtapp{
+        margin-top:.6rem;
+        line-height : 1;
+        font-size: .8rem;
+    }
+    .txtapp1{
+        line-height: .4;
+        font-size: .5rem;
+    }
+    .txtapp2{
+        line-height: 1.5;
+        font-size: .5rem;
+    }
+    .btn111{
+        width:4rem;
+        height:2rem;
+        font-size: .6rem;
+        border-radius:28rem;
+        margin-top:.8rem;
+        margin-right:.5rem;
+        background-color: rgb(255,103,2);
+        border: solid 1px rgb(255,103,2);
+        color: white;
+    }
+}

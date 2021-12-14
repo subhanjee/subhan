@@ -1,7 +1,6 @@
 .Carddiv {
   /* background-color: white; */
   padding: 1rem;
-  
 }
 .sale {
   color: #ff6801;
@@ -9,31 +8,30 @@
 }
 .col1 {
   background-color: white;
-  margin: .2rem;
+  margin: 0.2rem;
   padding: 9px;
 }
- 
+
 .img1 {
   width: 9rem;
 }
 .col1:hover {
   -moz-box-shadow: 0 0 10px #ccc;
-  -webkit-box-shadow: 0 0 10px #ccc; 
+  -webkit-box-shadow: 0 0 10px #ccc;
   box-shadow: 0 0 10px #ccc;
 }
-@media(max-width: 1024px){
+@media (max-width: 1024px) {
   .img1 {
     width: 8rem;
   }
 }
-.img2{
+.img2 {
   width: 10rem;
-  height: 9rem
+  height: 9rem;
 }
-@media(max-width: 1024px){
+@media (max-width: 1024px) {
   .img2 {
     width: 8rem;
-  height: 8rem
+    height: 8rem;
   }
 }
- 

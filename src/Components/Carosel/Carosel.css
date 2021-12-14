@@ -1,0 +1,20 @@
+.imagediv{
+    height: 45vh !important;
+}
+.carousel .carousel-status{
+    display: none;
+}
+/* @media(max-width:1024px){
+    .imagediv{
+        height: 45vh !important;
+    margin-top: 2rem !important;
+    }
+    
+}
+@media(max-width:768px){
+    .imagediv{
+        height: 45vh !important;
+    margin-top: 7rem !important;
+    }
+    
+} */

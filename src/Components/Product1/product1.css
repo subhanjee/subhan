@@ -34,7 +34,11 @@ body {
   }
   .less{
       color: grey;
+      text-Decoration: line-through
   }
+  .Less1{
+    color: grey;
+  } 
 .iconsection {
   display: flex;
   justify-content: space-evenly;
@@ -81,22 +85,39 @@ body {
 }
 .rating{
     /* margin-top: -.3rem; */
-    margin-left: .5rem;
+    margin-left: .5rem; 
 }
 .buybtn{
-width: 12rem;
+width: 10rem;
 height: 2.5rem;
 background-color: #2ABBE8;
 border: solid 1px #2ABBE8;
 color: white;
 }
 .addbtn{
-    width: 12rem;
+    width: 10rem;
     height: 2.5rem;
     background-color: #EE6F23;
     border: solid 1px #EE6F23;
     color: white;
     margin-left: .5rem;
+}
+@media (max-width: 375px){
+  .buybtn{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #2ABBE8;
+    border: solid 1px #2ABBE8;
+    color: white;
+    }
+    .addbtn{
+      width: 7rem;
+      height: 2.5rem;
+      background-color: #EE6F23;
+      border: solid 1px #EE6F23;
+      color: white;
+      margin-left: .5rem;
+  }
 }
 .sidediv1{
     background-color: #fafafa !important;

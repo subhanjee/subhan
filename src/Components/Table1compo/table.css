@@ -1,5 +1,13 @@
-/* .maintable{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+.dar{
+    width: 5rem;
+}
+.tummy{
+    font-size: 12px;
+    text-align: start;
+}
+.subtummy{
+    font-size: 10px;
+    text-align: start;
+    line-height: 1px;
+    color: #757575;
+}

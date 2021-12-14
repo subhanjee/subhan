@@ -13,27 +13,47 @@ function JustFor() {
         <div className=" ">
           <Row justify="center">
             <Col xs={20} sm={10} md={6} lg={4}>
-            <Link style={{color: "black"}} to="/product1">
-              <div className="col12">
-                <img
-                  className="img112"
-                  src="https://static-01.daraz.pk/p/b0195b37cd33a407234c2ce5c044870a.jpg_200x200q80-product.jpg_.webp"
-                  alt=""
-                />
-                <p>Tummy Trimmer for Home gym | Belly </p>
-                <p> Rs.375 </p>
-                <p> Rs.4,444 -92% </p>
-                <div style={{ display: "flex" }}>
-                  <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
-                    57 Ratings
+              <Link style={{ color: "black" }} to="/product1">
+                <div className="col12">
+                  <img
+                    className="img112"
+                    src="https://static-01.daraz.pk/p/b0195b37cd33a407234c2ce5c044870a.jpg_200x200q80-product.jpg_.webp"
+                    alt=""
+                  />
+                  <p>Tummy Trimmer for Home gym | Belly </p>
+                  <p> Rs.375 </p>
+                  <p style={{ textDecoration: "line-through", color: "grey" }}>
+                    {" "}
+                    Rs.4,444{" "}
                   </p>
+                  -92%
+                  <div style={{ display: "flex", marginTop: ".5rem" }}>
+                    <StarFilled
+                      style={{ color: "#FED309", fontSize: ".7rem" }}
+                    />
+                    <StarFilled
+                      style={{ color: "#FED309", fontSize: ".7rem" }}
+                    />
+                    <StarFilled
+                      style={{ color: "#FED309", fontSize: ".7rem" }}
+                    />
+                    <StarFilled
+                      style={{ color: "#FED309", fontSize: ".7rem" }}
+                    />
+                    <StarFilled
+                      style={{ color: "#FED309", fontSize: ".7rem" }}
+                    />
+                    <p
+                      style={{
+                        fontSize: "11px",
+                        marginTop: "-.2rem",
+                        marginLeft: ".5rem",
+                      }}
+                    >
+                      57 Ratings
+                    </p>
+                  </div>
                 </div>
-              </div>
               </Link>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
@@ -45,14 +65,23 @@ function JustFor() {
                 />
                 <p>Fast Charger Adapter + Data cable Micro </p>
                 <p>Rs.269 </p>
-                <p>Rs.599-55%</p>
-                <div style={{ display: "flex" }}>
+                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                  Rs.599
+                </p>
+                -55%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -67,14 +96,23 @@ function JustFor() {
                 />
                 <p>Climbing Rose Red Flower Seeds</p>
                 <p>Rs. 132</p>
-                <p>Rs. 700-81%</p>
-                <div style={{ display: "flex" }}>
+                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                  Rs. 700
+                </p>
+                -81%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -89,14 +127,23 @@ function JustFor() {
                 />
                 <p>11 inch Revolving Cake Turntable, </p>
                 <p>Rs. 502</p>
-                <p>Rs. 700-28%</p>
-                <div style={{ display: "flex" }}>
+                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                  Rs. 700
+                </p>
+                -28%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -111,14 +158,23 @@ function JustFor() {
                 />
                 <p>Super Strong Faced Powerful Adhesive </p>
                 <p>Rs. 56</p>
-                <p>Rs. 99-43%</p>
-                <div style={{ display: "flex" }}>
+                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                  Rs. 99
+                </p>
+                -43%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -133,14 +189,21 @@ function JustFor() {
                 />
                 <p>Contact lenses Grey Eye Contact lens </p>
                 <p>Rs. 240</p>
-                <p>Rs. 500-52%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 500</p>
+                -52%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -161,14 +224,21 @@ function JustFor() {
                 />
                 <p>Tummy Trimmer for Home gym | Belly </p>
                 <p> Rs.375 </p>
-                <p> Rs.4,444 -92% </p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless"> Rs.4,444 </p>
+                -92%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -183,14 +253,21 @@ function JustFor() {
                 />
                 <p>Fast Charger Adapter + Data cable Micro </p>
                 <p>Rs.269 </p>
-                <p>Rs.599-55%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs.599</p>
+                -55%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -205,14 +282,21 @@ function JustFor() {
                 />
                 <p>Climbing Rose Red Flower Seeds</p>
                 <p>Rs. 132</p>
-                <p>Rs. 700-81%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 700</p>
+                -81%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -227,14 +311,21 @@ function JustFor() {
                 />
                 <p>11 inch Revolving Cake Turntable, </p>
                 <p>Rs. 502</p>
-                <p>Rs. 700-28%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 700</p>
+                -28%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -249,14 +340,21 @@ function JustFor() {
                 />
                 <p>Super Strong Faced Powerful Adhesive </p>
                 <p>Rs. 56</p>
-                <p>Rs. 99-43%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 99</p>
+                -43%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -271,14 +369,21 @@ function JustFor() {
                 />
                 <p>Contact lenses Grey Eye Contact lens </p>
                 <p>Rs. 240</p>
-                <p>Rs. 500-52%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 500</p>
+                -52%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -299,14 +404,21 @@ function JustFor() {
                 />
                 <p>Tummy Trimmer for Home gym | Belly </p>
                 <p> Rs.375 </p>
-                <p> Rs.4,444 -92% </p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless"> Rs.4,444 </p>
+                -92%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -321,14 +433,21 @@ function JustFor() {
                 />
                 <p>Fast Charger Adapter + Data cable Micro </p>
                 <p>Rs.269 </p>
-                <p>Rs.599-55%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs.599</p>
+                -55%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -343,14 +462,21 @@ function JustFor() {
                 />
                 <p>Climbing Rose Red Flower Seeds</p>
                 <p>Rs. 132</p>
-                <p>Rs. 700-81%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 700</p>
+                -81%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -365,14 +491,21 @@ function JustFor() {
                 />
                 <p>11 inch Revolving Cake Turntable, </p>
                 <p>Rs. 502</p>
-                <p>Rs. 700-28%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 700</p>
+                -28%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -387,14 +520,21 @@ function JustFor() {
                 />
                 <p>Super Strong Faced Powerful Adhesive </p>
                 <p>Rs. 56</p>
-                <p>Rs. 99-43%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 99</p>
+                -43%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -409,14 +549,21 @@ function JustFor() {
                 />
                 <p>Contact lenses Grey Eye Contact lens </p>
                 <p>Rs. 240</p>
-                <p>Rs. 500-52%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 500</p>
+                -52%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -437,14 +584,21 @@ function JustFor() {
                 />
                 <p>Tummy Trimmer for Home gym | Belly </p>
                 <p> Rs.375 </p>
-                <p> Rs.4,444 -92% </p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless"> Rs.4,444 </p>
+                -92%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -459,14 +613,21 @@ function JustFor() {
                 />
                 <p>Fast Charger Adapter + Data cable Micro </p>
                 <p>Rs.269 </p>
-                <p>Rs.599-55%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs.599</p>
+                -55%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -481,21 +642,27 @@ function JustFor() {
                 />
                 <p>Climbing Rose Red Flower Seeds</p>
                 <p>Rs. 132</p>
-                <p>Rs. 700-81%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 700</p>
+                -81%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
               </div>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
-           
               <div className="col12">
                 <img
                   className="img112"
@@ -504,14 +671,21 @@ function JustFor() {
                 />
                 <p>11 inch Revolving Cake Turntable, </p>
                 <p>Rs. 502</p>
-                <p>Rs. 700-28%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 700</p>
+                -28%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -526,14 +700,21 @@ function JustFor() {
                 />
                 <p>Super Strong Faced Powerful Adhesive </p>
                 <p>Rs. 56</p>
-                <p>Rs. 99-43%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 99</p>
+                -43%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>
@@ -548,14 +729,21 @@ function JustFor() {
                 />
                 <p>Contact lenses Grey Eye Contact lens </p>
                 <p>Rs. 240</p>
-                <p>Rs. 500-52%</p>
-                <div style={{ display: "flex" }}>
+                <p className="priceless">Rs. 500</p>
+                -52%
+                <div style={{ display: "flex", marginTop: ".5rem" }}>
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
                   <StarFilled style={{ color: "#FED309", fontSize: ".7rem" }} />
-                  <p style={{ fontSize: "11px", marginTop: "-.2rem" }}>
+                  <p
+                    style={{
+                      fontSize: "11px",
+                      marginTop: "-.2rem",
+                      marginLeft: ".5rem",
+                    }}
+                  >
                     57 Ratings
                   </p>
                 </div>

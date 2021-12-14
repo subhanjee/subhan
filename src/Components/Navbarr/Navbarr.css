@@ -1,0 +1,32 @@
+.addsectionbg22{
+    width: 98.7vw;
+    height: 65vh;
+    background-color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    
+}
+.addSection122{
+    width: 70%;
+    height: 8vh; 
+    background-color: rgb(255,255,255);
+}
+.checkoutProductsheight{
+    height: 34rem;
+    overflow-y: scroll;
+    overflow: auto;
+}
+.checkoutProducts{
+   margin-bottom: .8rem;
+}
+.Checkoutbutton{
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 2.8rem;
+    height: 3.5rem;
+    width: 8rem;
+    border-radius: 3rem;
+    background-color: rgb(255,103,2);
+    border: solid 1px rgb(255,103,2);
+    color: white;
+}
