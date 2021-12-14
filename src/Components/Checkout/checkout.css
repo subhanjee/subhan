@@ -12,16 +12,26 @@ body {
 
 .stepdiv {
   width: 76.5rem;
-  height: 41rem;
+  /* height: 40rem; */
   background-color: #ffffff;
   text-align: center;
+  padding: 10px 0px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 425px) {
+  .stepdiv {
+    width: 80rem;
+    height: 58rem;
+    background-color: #ffffff;
+    text-align: center;
+  }
+} */
+
+/* @media (max-width: 768px) {
   .stepdiv {
     width: 80rem;
     height: 55.5rem;
     background-color: #ffffff;
     text-align: center;
   }
-}
+} */
