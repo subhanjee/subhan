@@ -72,8 +72,17 @@
 .hover1 {
   font-size: 14px;
   color: white;
-}
+} 
 .hover1:hover {
+  text-decoration: underline;
+  color: white;
+}
+.hover12 {
+  font-size: 14px;
+  color: white;
+  margin-left: .7rem;
+} 
+.hover12:hover {
   text-decoration: underline;
   color: white;
 }
@@ -140,4 +149,8 @@
     margin-top: -0.2rem;
   
   }
+}
+.contact{
+  color:white;
+  margin-left: .7rem;
 }

@@ -1,26 +1,32 @@
 .Carddiv12 {
-    background-color: white;
-    padding: 1rem;
-  }
-  .col12{
-   
-    padding: 9px;
-    background-color: white;
-    margin: .2rem;
-    line-height: 16px;
-   
-  }
- 
+  background-color: white;
+  padding: 1rem;
+}
+
+.col12 {
+  padding: 9px;
+  background-color: white;
+  margin: .2rem;
+  line-height: 16px;
+}
+
+.img112 {
+  width: 10rem;
+}
+
+.col12:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px rgb(124, 122, 122);
+}
+
+@media (max-width: 1024px) {
   .img112 {
-    width: 10rem;
+    width: 8rem;
   }
-  .col12:hover { 
-    -moz-box-shadow: 0 0 10px #ccc;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px rgb(124, 122, 122);
-  }
-  @media (max-width: 1024px){
-    .img112 {
-      width: 8rem;
-    }
-  }
+}
+
+.priceless {
+  color: grey;
+  text-decoration: line-through;
+}

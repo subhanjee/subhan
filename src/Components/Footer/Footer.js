@@ -20,12 +20,13 @@ function Footer() {
               >
                 <p
                   style={{
-                    marginLeft: "3%",
                     color: " white",
-                    fontSize: "15px",
+                    fontSize: "16px",
+                    
                   }}
                 >
                   Customer Care
+                  </p>
                   <p className="hover1">How to Buy</p> 
                   <p className="hover1">Corporate & Bulk Purchasing</p>
                   <p className="hover1"> Returns & Refunds</p>
@@ -33,19 +34,17 @@ function Footer() {
                   <p className="hover1">Contact Us</p>
                   <p className="hover1">Purchase Protection</p>
                   <p className="hover1">Fulfilled by Trisage (FBT)</p>
-                </p>
+                  <br></br>
                 <p
                   style={{
-                    marginLeft: "3%",
+                    // marginLeft: "3%",
                     color: " white",
-                    fontSize: "15px",
+                    fontSize: "16px",
                   }}
                 >
-                  <p>Make Money With Us</p>
-                  <br></br>
+                Make Money With Us</p>
                   <p className="hover1">Trisage University</p>  
                   <p className="hover1">Sell on Trisage</p>
-                </p>
               </Col>
               <Col
                 xs={20}
@@ -58,24 +57,24 @@ function Footer() {
                   style={{
                     marginLeft: "3%",
                     color: " white",
-                    fontSize: "14px",
+                    fontSize: "16px",
                   }}
                 >
-                  Trisage<br></br>
-                  <p className="hover1">About Us</p>  
-                  <p className="hover1">Digital Payments</p>
-                  <p className="hover1">Trisage Cares</p>
-                  <p className="hover1">Trisage Blog</p>
-                  <p className="hover1">Terms & Conditions</p>
-                  <p className="hover1">Privacy Policy</p>
-                  <p className="hover1">Online Shopping App</p>
-                  <p className="hover1">Online Grocery Shopping</p>
-                  <p className="hover1">Trisage Exclusive</p>
-                  <p className="hover1">How to shop on Trisage</p>
+                  Trisage </p>
+                  <p className="hover12">About Us</p>  
+                  <p className="hover12">Digital Payments</p>
+                  <p className="hover12">Trisage Cares</p>
+                  <p className="hover12">Trisage Blog</p>
+                  <p className="hover12">Terms & Conditions</p>
+                  <p className="hover12">Privacy Policy</p>
+                  <p className="hover12">Online Shopping App</p>
+                  <p className="hover12">Online Grocery Shopping</p>
+                  <p className="hover12">Trisage Exclusive</p>
+                  <p className="hover12">How to shop on Trisage</p>
+               <p className="contact">Contact: +92 309 4321 500<br></br>
                   Contact: +92 309 4321 500<br></br>
-                  Contact: +92 309 4321 500<br></br>
-                  Mail: Info@trisagesolutions.com
-                </p>
+                  Mail: Info@trisagesolutions.com</p>
+               
               </Col>
               <Col
                 xs={24}
@@ -145,6 +144,6 @@ function Footer() {
         </div>
       </footer>
     </div>
-  );
+  ); 
 }
 export default Footer;
