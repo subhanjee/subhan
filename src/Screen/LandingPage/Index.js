@@ -8,6 +8,7 @@ import Add from "../../Components/Add/Add";
 import Navbarr from "../../Components/Navbarr/Navbarr";
 // import Carosal from "../../Components/Carosel/Carosel"
 import "./landing.css";
+import Carosel from "../../Components/Carosel/Carosel";
 
 function LandingPage() {
   return (
@@ -15,6 +16,7 @@ function LandingPage() {
       <div style={{ marginTop: ".1rem" }}></div>
       <Add/>
       <Navbarr/>
+      <Carosel />
       <Flash/>
       <Collection />
       <JustFor />
