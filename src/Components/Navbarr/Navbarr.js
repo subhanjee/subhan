@@ -96,7 +96,7 @@ function Navbarr() {
               />
             </Navbar.Collapse>
           </Navbar>
-          <Carosel />
+          <Carosel/>
         </div>
       </div>
     </div>

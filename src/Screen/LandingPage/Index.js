@@ -6,7 +6,6 @@ import JustFor from "../../Components/Just-For-You/JustFor";
 import Footer from "../../Components/Footer/Footer";
 import Add from "../../Components/Add/Add";
 import Navbarr from "../../Components/Navbarr/Navbarr";
-// import Carosal from "../../Components/Carosel/Carosel"
 import "./landing.css";
 
 function LandingPage() {
