@@ -53,7 +53,7 @@ function Footer() {
                 lg={6}
                 className=" d-flex flex-column justify-content-center h-100"
               >
-                <p
+                <a href="https://www.trisagesolutions.com/"  target="_blank"
                   style={{
                     marginLeft: "3%",
                     color: " white",
@@ -61,7 +61,7 @@ function Footer() {
                   }}
                 >
                   Trisage{" "}
-                </p>
+                </a>
                 <p className="hover12">About Us</p>
                 <p className="hover12">Digital Payments</p>
                 <p className="hover12">Trisage Cares</p>
@@ -73,8 +73,8 @@ function Footer() {
                 <p className="hover12">Trisage Exclusive</p>
                 <p className="hover12">How to shop on Trisage</p>
                 <p className="contact">
-                  Contact: +92 309 4321 500<br></br>
-                  Contact: +92 309 4321 500<br></br>
+                  Contact: +92 309 4312 500<br></br>
+                  Contact: +92 308 4685 051<br></br>
                   Mail: Info@trisagesolutions.com
                 </p>
               </Col>
@@ -86,7 +86,7 @@ function Footer() {
                 className=" d-flex  justify-content-center h-100"
               >
                 <div>
-                  <img className="scan" src="scan.png" alt="" />
+                  <img className="scan" src="qr1122.png" alt="" />
                   <div className="btndiv">
                     <div className="googlebtn">
                       <AppleFilled

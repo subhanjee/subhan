@@ -1,10 +1,11 @@
 
 .addsectionbg111{
-    width: 98%;
+    width: 98.5vw;
     height: 5.2rem;
-    background-color: rgb(226,226,226);
+    background-color: white;
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 .imageclass1{
     width: 5.5rem;
