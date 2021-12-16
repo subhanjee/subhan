@@ -23,11 +23,11 @@ function Flash() {
                   />
                   <p>HOT SHAPERS Hot Belt for Women </p>
                   <p> Rs.299 </p>
-                  <p style={{ textDecoration: "line-through", color: "grey" }}>
+                  <p  style={{ textDecoration: "line-through" }} className="txtcolor">
                     {" "}
                     Rs. 1,050
                   </p>
-                  -72%
+                  <p className="txtcolor">-72%</p>
                 </div>
               </Link>
             </Col>
@@ -40,10 +40,10 @@ function Flash() {
                 />
                 <p>Brown leather Luxury Watch For Unisex</p>
                 <p>Rs.277 </p>
-                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                <p style={{ textDecoration: "line-through" }} className="txtcolor">
                   Rs. 999
                 </p>
-                -72%
+                <p className="txtcolor">-72%</p>
               </div>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
@@ -55,10 +55,10 @@ function Flash() {
                 />
                 <p>Spice, Herb,Tea and Seasoning Filter Ball </p>
                 <p>Rs. 132</p>
-                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                <p style={{ textDecoration: "line-through" }} className="txtcolor">
                   Rs. 700
                 </p>
-                -81%
+                <p className="txtcolor">-81%</p>
               </div>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
@@ -70,10 +70,10 @@ function Flash() {
                 />
                 <p>Electronic Stove Lighter / Spark Lighter </p>
                 <p>Rs. 502</p>
-                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                <p style={{ textDecoration: "line-through" }} className="txtcolor">
                   Rs. 700
                 </p>
-                -28%
+                <p className="txtcolor">-28%</p>
               </div>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
@@ -85,10 +85,10 @@ function Flash() {
                 />
                 <p>Magic Slinky RAINBOW Springs Bounce </p>
                 <p>Rs. 56</p>
-                <p style={{ textDecoration: "line-through", color: "grey" }}>
-                  Rs. 99
+                <p style={{ textDecoration: "line-through"}} className="txtcolor">
+                 Rs. 99
                 </p>
-                -43%
+                <p className="txtcolor">-43%</p>
               </div>
             </Col>
             <Col xs={20} sm={10} md={6} lg={4}>
@@ -100,10 +100,10 @@ function Flash() {
                 />
                 <p>Tile Stickers Pack of 6/12/24 Pcs.12x12cm </p>
                 <p>Rs. 240</p>
-                <p style={{ textDecoration: "line-through", color: "grey" }}>
+                <p style={{ textDecoration: "line-through" }} className="txtcolor">
                   Rs. 500
                 </p>
-                -52%
+               <p className="txtcolor">-52%</p> 
               </div>
             </Col>
           </Row>

@@ -2,12 +2,15 @@ import React from "react";
 import "./collection.css";
 import { Row, Col } from "antd";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
 
 function Collection() {
   return (
     <div>
       <Container>
-        <h4>Collections</h4>
+      <div> <Link to ="/categories"> <h4>Categories</h4></Link></div>
+        
         <div className="Carddiv1">
           <Row justify="center">
             <Col xs={20} sm={10} md={6} lg={6}>
